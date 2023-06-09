@@ -1,0 +1,12 @@
+#install python di node kafka
+sudo yum install python2-devel
+sudo rpm -ivh python-virtualenv-15.1.0-7.el7_9.noarch.rpm
+
+#create virtual env
+python -m virtualenv kafkavenv
+
+#aktivasi virtual env
+source /home/kafkaadmin/push_data/kafkavenv/bin/activate
+
+./home/kafkaadmin/push_data/kafkavenv/bin/activate
+./usr/lib64/python3.6/venv/scripts/common/activate
